@@ -1,0 +1,214 @@
+:root{
+    --primary: #00a5ec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+}
+
+.superscript{
+    background: #FF8C00;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px 16px;
+    margin-left: 4px;
+    position: relative;
+    bottom: 4px;
+}
+
+.dropdown{
+    margin-left: 1rem;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.view-all{
+    text-decoration: none !important;
+    color: var(--primary);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background: #fff;
+    border-radius: 50%;
+    color: #000;
+}
+
+.carousel-indicators{
+    color: #000;
+}
+
+section {
+  padding-top: 66px;
+}
+
+section:last-of-type{
+    padding-bottom: 104px;
+}
+
+.nav-item {
+  padding: 8px 16px;
+  color: #484848;
+}
+
+.search_bar {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  max-width: 512px;
+  border-radius: 3px;
+}
+
+.input-group .form-control {
+  height: 48px;
+  padding-left: 15px;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.input-group button{
+    padding: 0 12px !important;
+    background: var(--primary) !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.container-fluid {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+section p{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.categories{
+    margin-bottom: 32px;
+}
+
+.category{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+.category .card{
+    display: flex;
+    padding: 16px 4px 24px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    margin: 10px 7px;
+    width: 140px;
+    height: 156px;
+    border: none;
+}
+
+.category .card .img{
+    width: 132px;
+}
+
+.card .img img{
+    width: 100%;
+}
+
+.card .text{
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.38;
+    margin-top: 16px;
+}
+
+.category .card:hover{
+    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.fresh_jobs_category{
+    display: flex;
+    justify-content: center;
+}
+
+.fresh_jobs_category .card{
+    margin: 24px 64px 34px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fresh_jobs_category .img{
+    width: 88px;
+}
+
+.fresh_jobs_category .text{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-top: 8px
+}
+
+footer .footer-container{
+    padding-top: 3rem;
+    margin-bottom: 12px;
+}
+
+footer h5{
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+footer h5 .superscript{
+    font-size: 14px;
+    padding: 2px 12px;
+}
+
+.col-lg-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item{
+    color: #ccc;
+}
+
+.footer-bottom{
+    border-top: 1px solid #666;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom .d-flex{
+    align-items: center;
+}
+
+.footer-bottom .btn{
+    margin-right: 16px;
+}
+
+.footer-bottom .fab{
+    margin-right: 16px;
+}
